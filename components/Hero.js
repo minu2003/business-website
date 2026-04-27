@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import hero from "../app/assets/hero.png";
 
 export default function Hero() {
@@ -13,8 +12,6 @@ export default function Hero() {
         className="pointer-events-none absolute inset-x-0 bottom-0 z-0 h-[min(45%,22rem)] bg-gradient-to-t from-[#020617] via-[#020617]/75 to-transparent sm:h-[min(50%,26rem)]"
         aria-hidden
       />
-
-      <Navbar />
 
       <div className="relative z-10 mx-auto flex min-h-[calc(90vh-5rem)] w-full max-w-6xl items-center justify-center px-6 pt-25 sm:px-8">
         <div className="mx-auto flex w-full max-w-4xl flex-col items-center text-center">
